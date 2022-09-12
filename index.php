@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/layout.css">
-    <script src="js/updateMark.js" defer></script>
-    <script src="js/book.js" defer></script>
+    <script src="updateMark.js" defer></script>
+    <script src="book.js" defer></script>
 </head>
 <body>
     <header class="p-relative">
@@ -54,7 +54,7 @@
         </form>
         <div id="livros">
             <?php
-            require_once "model/Conexao.php";
+            require_once "Conexao.php";
 
             $sql = "select * from book;";
 
@@ -71,7 +71,7 @@
             ?>
             <section class="d-flex">
                 <div class="livro-imagem">
-                    <img src="img/livro.webp" alt="Imagem do livro">
+                    <img src="livro.webp" alt="Imagem do livro">
                 </div>
                 <div class="livro-contexto">
                     <p class="livro-dados">
