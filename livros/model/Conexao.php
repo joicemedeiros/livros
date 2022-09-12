@@ -2,10 +2,10 @@
 
 class Conexao {
 
-    private static $servername = "ec2-3-214-2-141.compute-1.amazonaws.com";
-    private static $username = "ewymcpohmjfjxn";
-    private static $password = "f4aa5989376c9b67fbb33fc504a91dce3524e60e2be1e6670471f4c487db0f25";
-    private static $dbname = "dfqesbldmvetlv";
+    private static $servername = "ec2-50-19-255-190.compute-1.amazonaws.com";
+    private static $username = "bwvzedprndxfqa";
+    private static $password = "0c075083515e26a8a2d7d682d3c76010376c96b5fc43b7294ef99397b76d9f94";
+    private static $dbname = "daterh89e9pl5b";
     private static $erro = "";
     private static $data = null;
     private static $conn = null;
